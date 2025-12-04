@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `m6prog_digipost`.`user_has_bericht` (
     REFERENCES `m6prog_digipost`.`bericht` (`idbericht`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+ENGINE = InnoDB;    
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
